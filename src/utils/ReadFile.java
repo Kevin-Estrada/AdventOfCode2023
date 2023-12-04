@@ -10,10 +10,15 @@ public class ReadFile {
     private String filePathName;
     private File file;
     private Scanner sc;
-    public ReadFile(String filePathName) throws FileNotFoundException {
-        this.filePathName = filePathName;
-        file = new File(this.filePathName);
-        sc = new Scanner(this.file);
+    public ReadFile(String filePathName) {
+        try {
+            this.filePathName = filePathName;
+            file = new File(this.filePathName);
+            sc = new Scanner(this.file);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+            System.out.println("File not found!");
+        }
     }
 
     public List<String> getScannerIterable() {

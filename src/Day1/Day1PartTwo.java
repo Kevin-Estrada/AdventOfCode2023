@@ -1,6 +1,5 @@
 package Day1;
 
-import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map.Entry;
@@ -8,7 +7,7 @@ import java.util.Map.Entry;
 import utils.ReadFile;
 
 public class Day1PartTwo {
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args) {
         HashMap<String,String> numberMap = new HashMap<>();
         numberMap.put("one", "1");
         numberMap.put("two", "2");

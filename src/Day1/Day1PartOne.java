@@ -1,12 +1,11 @@
 package Day1;
 
-import java.io.FileNotFoundException;
 import java.util.ArrayList;
 
 import utils.ReadFile;
 
 public class Day1PartOne {
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args) {
         ReadFile readFile = new ReadFile(
                 "C:\\Users\\kestrada\\Documents\\Advent Of Code\\advent-of-code\\src\\Day1\\File1.txt");
         ArrayList<String> total = new ArrayList<>();

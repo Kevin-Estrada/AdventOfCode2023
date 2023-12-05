@@ -1,13 +1,11 @@
 package Day4;
 
-import java.util.Arrays;
-
 import utils.ReadFile;
 
 public class Day4PartOne {
     public static void main(String[] args) {
         ReadFile readFile = new ReadFile(
-                "C:\\Users\\kestrada\\Documents\\Advent Of Code\\advent-of-code\\src\\Day4\\File1.txt");
+                "C:\\Users\\kestrada\\Documents\\Advent Of Code\\advent-of-code\\src\\Day4\\files\\File1.txt");
 
         int sum = 0;
         for (String line : readFile.getScannerIterable()) {

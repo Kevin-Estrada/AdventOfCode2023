@@ -7,7 +7,7 @@ import utils.ReadFile;
 public class Day1PartOne {
     public static void main(String[] args) {
         ReadFile readFile = new ReadFile(
-                "C:\\Users\\kestrada\\Documents\\Advent Of Code\\advent-of-code\\src\\Day1\\File1.txt");
+                "C:\\Users\\kestrada\\Documents\\Advent Of Code\\advent-of-code\\src\\Day1\\files\\File1.txt");
         ArrayList<String> total = new ArrayList<>();
         for (String line : readFile.getScannerIterable()) {
             String temp = "";

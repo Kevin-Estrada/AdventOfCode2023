@@ -9,7 +9,7 @@ import utils.ReadFile;
 public class Day2PartOne {
     public static void main(String[] args) {
         ReadFile readFile = new ReadFile(
-                "C:\\Users\\kestrada\\Documents\\Advent Of Code\\advent-of-code\\src\\Day2\\File1.txt");
+                "C:\\Users\\kestrada\\Documents\\Advent Of Code\\advent-of-code\\src\\Day2\\files\\File1.txt");
         int sum = 0;
         Map<String, Integer> colorMap = new HashMap<>();
         colorMap.put("red", 12);

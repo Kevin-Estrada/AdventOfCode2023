@@ -9,7 +9,7 @@ import utils.ReadFile;
 public class Day2PartTwo {
     public static void main(String[] args) {
         ReadFile readFile = new ReadFile(
-                "C:\\Users\\kestrada\\Documents\\Advent Of Code\\advent-of-code\\src\\Day2\\File2.txt");
+                "C:\\Users\\kestrada\\Documents\\Advent Of Code\\advent-of-code\\src\\Day2\\files\\File2.txt");
         int sum = 0;
 
         for (String line : readFile.getScannerIterable()) {

@@ -19,7 +19,7 @@ public class Day1PartTwo {
         numberMap.put("eight", "8");
         numberMap.put("nine", "9");
         ReadFile readFile = new ReadFile(
-                "C:\\Users\\kestrada\\Documents\\Advent Of Code\\advent-of-code\\src\\Day1\\File2.txt");
+                "C:\\Users\\kestrada\\Documents\\Advent Of Code\\advent-of-code\\src\\Day1\\files\\File2.txt");
         ArrayList<String> total = new ArrayList<>();
         for (String line : readFile.getScannerIterable()) {
             for(Entry<String,String> entry : numberMap.entrySet()) {

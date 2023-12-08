@@ -1,6 +1,5 @@
 package Day2;
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -15,7 +14,6 @@ public class Day2PartTwo {
         for (String line : readFile.getScannerIterable()) {
             // System.out.println(Arrays.toString(line.split(":")));
             String[] splitLine = line.split(":");
-            String gameName = splitLine[0];
             // System.out.println("Starting " + gameName);
             Map<String, Integer> colorMap = new HashMap<>();
             colorMap.put("red", 0);

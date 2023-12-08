@@ -10,6 +10,7 @@ public class ReadFile {
     private String filePathName;
     private File file;
     private Scanner sc;
+    private List<String> list = new ArrayList<>();
     public ReadFile(String filePathName) {
         try {
             this.filePathName = filePathName;
@@ -22,10 +23,9 @@ public class ReadFile {
     }
 
     public List<String> getScannerIterable() {
-        List<String> list = new ArrayList<>();
         while(sc.hasNext()) {
-            list.add(sc.nextLine());
+            this.list.add(sc.nextLine());
         }
-        return list;
+        return this.list;
     }
 }

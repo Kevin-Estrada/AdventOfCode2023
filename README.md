@@ -21,4 +21,8 @@
 
 ## Day 6:
 - Part 1: Finished and got gold star.
+- Part 2: Finished and got gold star.
+
+## Day 7:
+- Part 1: TODO
 - Part 2: TODO
